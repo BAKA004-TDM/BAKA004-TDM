@@ -1,8 +1,12 @@
 # Установка ngrok в Termux
 
-pkg update && pkg upgrade -y  # Обновление пакетов
+  # Обновление пакетов
 
-pkg install wget -y           # Установка wget для загрузки файлов
+pkg update && pkg upgrade -y
+
+ # Установка wget для загрузки файлов
+
+pkg install wget -y
 
 # Скачивание ngrok
 
